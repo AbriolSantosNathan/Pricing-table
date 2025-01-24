@@ -1,0 +1,120 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Pricing table/Abriol Santos,Nathan</title>
+</head>
+<body>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: hsl(260, 27%, 4%);
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            
+        }
+
+        .pricing-table {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .pricing-card {
+            flex: 1;
+            max-width: 300px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: #fff;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .pricing-card h2 {
+            color: #220786;
+        }
+
+        .pricing-card p {
+            font-size: 14px;
+            color: #0ba049;
+            font-style: strong;
+        }
+
+        .pricing-card .price {
+            font-size: 24px;
+            color: #f10909;
+            font-weight: bold;
+        }
+
+        .pricing-card ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        .pricing-card button {
+            padding: 10px 20px;
+            background-color: #10cf1a;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        li{
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="pricing-table">
+       
+            <div class="pricing-card">
+                <h2>Starter</h2>
+                <p>Basic features for personal use</p>
+                <p class="price">$19/month</p>
+                <ul>
+                    <li>✔ 7 GB Storage</li>
+                    <li>✔ Email Support</li>
+                    <li>✔ Basic Analytics</li>
+                </ul>
+                <button>Choose Starter</button>
+            </div>
+
+        
+            <div class="pricing-card">
+                <h2>Advance</h2>
+                <p>More features for growing teams</p>
+                <p class="price">$49/month</p>
+                <ul>
+                    <li>✔ 60 GB Storage</li>
+                    <li>✔ Priority Support</li>
+                    <li>✔ Advanced Analytics</li>
+                </ul>
+                <button>Choose Advance</button>
+            </div>
+
+
+            <div class="pricing-card">
+                <h2>Premium</h2>
+                <p>All features for large businesses</p>
+                <p class="price">$99/month</p>
+                <ul>
+                    <li>✔ Unlimited Storage</li>
+                    <li>✔ Dedicated Support</li>
+                    <li>✔ Premium Analytics</li>
+                </ul>
+                <button>Choose Premium</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
